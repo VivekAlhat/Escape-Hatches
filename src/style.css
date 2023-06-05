@@ -1,0 +1,61 @@
+.container {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#header {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#numpad {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.num {
+  background-color: rgb(50, 82, 82);
+  color: rgb(255, 255, 255);
+  padding: 2rem;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.num:hover {
+  background-color: rgb(44, 59, 59);
+}
+
+.password-info-container {
+  display: grid;
+}
+
+button {
+  outline: none;
+  border: none;
+  background-color: rgb(4, 4, 129);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 6px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(26, 26, 252);
+}
+
+#star {
+  font-size: 3rem;
+}
