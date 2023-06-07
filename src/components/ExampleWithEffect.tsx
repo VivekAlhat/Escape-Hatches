@@ -35,8 +35,10 @@ const ExampleWithEffect = () => {
         <React.Fragment>
           <p id="header">Enter your 4 digit password to continue</p>
           <div>
-            {userInput.split('').map(() => (
-              <span id="star">*</span>
+            {userInput.split('').map((_, id) => (
+              <span id="star" key={id}>
+                *
+              </span>
             ))}
           </div>
           <div id="numpad">
